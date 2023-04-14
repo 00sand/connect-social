@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
-import 'bulma/css/bulma.css'
+
 import { AuthContext } from "../helper/AuthContext";
 import { RxCrossCircled } from 'react-icons/rx';
 
