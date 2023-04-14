@@ -1,7 +1,6 @@
 
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link, useParams, useNavigate } from 'react-router-dom'
-
 import logo from './pics/logo.png'
 import Home from './pages/Home';
 import Profile from './pages/Profile';
