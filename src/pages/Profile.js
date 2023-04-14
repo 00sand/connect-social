@@ -16,18 +16,18 @@ function Profile() {
 
 
     useEffect(() => {
-        axios.get(`http://localhost:3001/auth/profile/${id}`, { credentials: true }).then((response) => {
+        axios.get(`https://connect-203.herokuapp.com/auth/profile/${id}`, { credentials: true }).then((response) => {
             setUsername(response.data.username);
         });
 
-        axios.get(`http://localhost:3001/posts/byuserId/${id}`).then((response) => {
+        axios.get(`https://connect-203.herokuapp.com/posts/byuserId/${id}`).then((response) => {
             setListOfPosts(response.data);
         });
     }, []);
 
     const likePost = (postId) => {
 
-        axios.post("http://localhost:3001/likes",
+        axios.post("https://connect-203.herokuapp.com/likes",
             {
                 PostId: postId
 

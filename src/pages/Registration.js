@@ -21,7 +21,7 @@ function Registration() {
     });
 
     const onSubmit = (data) => {
-        axios.post("http://localhost:3001/auth", data, { withCredentials: true }).then((response) => {
+        axios.post("https://connect-203.herokuapp.com/auth", data, { withCredentials: true }).then((response) => {
             if (response.data.error) {
                 alert(response.data.error);
             } else {

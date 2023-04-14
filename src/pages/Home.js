@@ -16,7 +16,7 @@ function Home() {
 
     useEffect(() => {
         axios
-            .get("http://localhost:3001/posts")
+            .get("https://connect-203.herokuapp.com//posts")
             .then((response) => {
                 setListOfPosts(response.data);
             });
@@ -25,7 +25,7 @@ function Home() {
 
     const likePost = (postId) => {
 
-        axios.post("http://localhost:3001/likes",
+        axios.post("https://connect-203.herokuapp.com/likes",
             {
                 PostId: postId
 
