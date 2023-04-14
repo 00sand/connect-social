@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(216, 216, 216) !important;
+}
+
+
+.section {
+  background-color: rgb(216, 216, 216);
+}
+
+.hov {
+  cursor: pointer;
+}
+
+.spacing-c {
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.clear-bg {
+  background-color: rgb(216, 216, 216) !important;
+  box-shadow: none !important;
+}
+
+.logo {
+  max-height: 3em;
+  max-width: 3em;
+}
+
+.navbar-item {
+  font-size: 1.1em;
+  margin-right: 1.5em;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.width-r {
+  width: 50%;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment {
+  display: flex;
+}
+
+.comment-w {
+  width: 80%;
+}
+
+.flex-b {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.width-cp {
+  width: 60%;
+}
+
+.width-login {
+  width: 30%;
+}
+
+.box-w {
+  width: 35%;
+}
+
+
+
+
+label {
+  text-align: left;
+}
+
+
+
+
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+
+
+@media (max-width: 854px) {
+  .box-w {
+    width: 50%;
+  }
+}
+
+@media (max-width: 470px) {
+  .box-w {
+    width: 70%;
+  }
+}
