@@ -24,7 +24,7 @@ function CreatePost() {
 
     const onSubmit = (data) => {
         axios
-            .post("http://localhost:3001/posts", data, {
+            .post("https://connect-203.herokuapp.com/posts", data, {
                 withCredentials: true,
                 headers: {
                     Accept: 'application/json',
