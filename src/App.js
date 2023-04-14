@@ -1,7 +1,7 @@
 
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link, useParams, useNavigate } from 'react-router-dom'
-import 'bulma/css/bulma.min.css';
+
 import logo from './pics/logo.png'
 import Home from './pages/Home';
 import Profile from './pages/Profile';
