@@ -31,7 +31,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/auth/verify", { withCredentials: true })
+      .get("https://connect-203.herokuapp.com/auth/verify", { withCredentials: true })
       .then((response) => {
         if (response.data.error) {
           setAuthState({ ...authState, status: false });
@@ -46,7 +46,7 @@ function App() {
   }, []);
 
   const logOut = () => {
-    axios.get('http://localhost:3001/auth/delete', { withCredentials: true })
+    axios.get('https://connect-203.herokuapp.com/auth/delete', { withCredentials: true })
       .then((response) => {
         setAuthState({ username: "", id: 0, status: false });
 

@@ -16,7 +16,9 @@ function Home() {
 
     useEffect(() => {
         axios
-            .get("https://connect-203.herokuapp.com/posts")
+            .get("https://connect-203.herokuapp.com/posts",
+
+            )
             .then((response) => {
                 setListOfPosts(response.data);
             });
