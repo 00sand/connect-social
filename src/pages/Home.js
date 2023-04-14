@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from "axios";
 import '../App.css';
-import 'bulma/css/bulma.css'
+
 import { useState, useEffect, useContext } from "react";
 import { useNavigate } from 'react-router-dom'
 import { AuthContext } from "../helper/AuthContext";

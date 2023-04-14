@@ -3,7 +3,6 @@ import { useParams, useNavigate } from "react-router-dom";
 import { AuthContext } from "../helper/AuthContext";
 import { FiThumbsUp } from 'react-icons/fi';
 import axios from "axios";
-
 import '../App.css';
 
 
