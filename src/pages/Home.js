@@ -1,7 +1,6 @@
 import React from 'react'
 import axios from "axios";
 import '../App.css';
-
 import { useState, useEffect, useContext } from "react";
 import { useNavigate } from 'react-router-dom'
 import { AuthContext } from "../helper/AuthContext";
@@ -17,7 +16,7 @@ function Home() {
 
     useEffect(() => {
         axios
-            .get("https://connect-203.herokuapp.com//posts")
+            .get("https://connect-203.herokuapp.com/posts")
             .then((response) => {
                 setListOfPosts(response.data);
             });
