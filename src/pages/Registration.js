@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import '../App.css';
+import 'bulma/css/bulma.css'
 import * as Yup from "yup";
 import axios from "axios"; import { json, useNavigate } from "react-router-dom";
 import { AuthContext } from "../helper/AuthContext";
