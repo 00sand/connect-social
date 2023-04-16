@@ -31,7 +31,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("https://connect-203.herokuapp.com/auth/verify", { withCredentials: true })
+      .get("https://connect-203.herokuapp.com/auth/verify", { withCredentials: true }, { credentials: 'include' })
       .then((response) => {
         if (response.data.error) {
           setAuthState({ ...authState, status: false });
