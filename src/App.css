@@ -103,6 +103,11 @@ label {
   .box-w {
     width: 50%;
   }
+
+  .width-login {
+    width: 50%;
+  }
+
 }
 
 @media (max-width: 470px) {

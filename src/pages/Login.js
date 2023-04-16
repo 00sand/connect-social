@@ -17,7 +17,7 @@ function Login() {
 
     const login = () => {
         const data = { email: email, password: password };
-        axios.post("https://connect-203.herokuapp.com/auth/login", data, { withCredentials: true }, { credentials: 'include' }).then((response) => {
+        axios.post("https://connect-203.herokuapp.com/auth/login", data, { withCredentials: true }).then((response) => {
 
             if (response.data.error) {
                 alert(response.data.error);
