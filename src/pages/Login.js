@@ -34,7 +34,7 @@ function Login() {
     };
     return (
         <>
-            <div className="section flex-c">
+            <div className="section flex-c vh">
                 <div className="box width-login">
                     <div className="field mx-4">
                         <label className="label">Email:</label>

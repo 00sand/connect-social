@@ -48,14 +48,14 @@ function Registration() {
                     onSubmit={onSubmit}
                     validationSchema={validationSchema}
                 >
-                    <div className="section flex-c">
+                    <div className="section flex-c vh">
                         <div className="box width-login">
                             <Form>
                                 <div className="field mx-4">
-                                    <label className="label">Username:</label>
+                                    <label className="label">Name:</label>
                                     <div className="control">
 
-                                        <ErrorMessage name="username" component="span" />
+                                        <ErrorMessage name="username" component="span" className="warning is-size-7" />
                                         <Field className="input is-rounded"
                                             autocomplete="off"
                                             id="inputCreatePost"
@@ -70,7 +70,7 @@ function Registration() {
                                     <label className="label">Email:</label>
                                     <div className="control">
 
-                                        <ErrorMessage name="email" component="span" />
+                                        <ErrorMessage name="email" component="span" className="warning is-size-7" />
                                         <Field className="input is-rounded"
                                             autocomplete="off"
                                             type="email"
@@ -88,7 +88,7 @@ function Registration() {
                                     <label className="label">Password:</label>
                                     <div className="control">
 
-                                        <ErrorMessage name="password" component="span" />
+                                        <ErrorMessage name="password" component="span" className="warning is-size-7" />
                                         <Field className="input is-rounded"
                                             autocomplete="off"
                                             type="password"
