@@ -60,7 +60,8 @@ function App() {
         <Router>
           <div className="navbar is-spaced has-shadow is-link py-2">
             <div className="navbar-brand">
-              <img className='logo' src={logo} ></img>
+              <Link to="/"><img className='logo' src={logo} ></img></Link>
+
 
               <Link role="button" className={`navbar-burger burger ${isActive ? 'is-active' : ''}`} onClick={handleClick}>
                 <span aria-hidden="true"></span>
