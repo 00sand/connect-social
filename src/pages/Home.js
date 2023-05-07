@@ -107,7 +107,7 @@ function Home() {
 
 
 
-                                        <div className='float-r'>
+                                        <div className='float-r hov'>
 
 
                                             <FiThumbsUp
