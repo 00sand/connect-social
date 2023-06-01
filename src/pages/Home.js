@@ -11,6 +11,7 @@ import { FiThumbsUp } from 'react-icons/fi';
 function Home() {
 
     const [listOfPosts, setListOfPosts] = useState([]);
+    const [listOfPot, setListOfPot] = useState([]);
     const navigate = useNavigate();
     const { authState } = useContext(AuthContext);
 
